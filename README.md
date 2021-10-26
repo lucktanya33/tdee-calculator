@@ -12,4 +12,8 @@
 ## 功能介紹
 
 ### 計算自己的基礎代謝, TDEE
+![](https://i.imgur.com/4SgRWxI.gif)
+
 ### 計算增肌減脂目標熱量
+![](https://i.imgur.com/0idhMs8.gif)
+
