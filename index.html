@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TDEE計算機</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="main debug">
+    <div class="form">
+      <form > 
+        <h1>TDEE 計算機</h1>
+        <div class="gender debug">
+          <div>生理性別</div>
+          <div>
+            <div>
+              <label for="gender_male">男</label>
+              <input type="radio" id="gender_male" value="male" name="gender">
+            </div>
+            <div>
+              <label for="gender_female">女</label>
+              <input type="radio" id="gender_female" value="female" name="gender">
+            </div>
+          </div>
+        </div>
+        <div class="weight debug">
+          <div>輸入體重(kg 上限200)</div>
+          <input name="weight">
+        </div>
+        <div class="height debug">
+          <div>輸入身高(cm 上限250)</div>
+          <input name ="height">
+        </div>
+        <div class="age debug">
+          <div>輸入年齡(yr 上限150)</div>
+          <input name ="age">
+        </div>
+        <div class="level debug">
+          <div>輸入活動量程度(1~1.9)</div>
+          <button id="level_info" class="level-info">活動量程度說明</button>
+          <input name ="level">
+          <div id="level_info_area" class="hidden">
+            <p>久坐 沒啥運動 1.2</p>
+            <p>輕量活動 每周運動1-3天 1.375 </p>
+            <p>中度活動量 每周運動3-5天 1.55</p>
+            <p>高度活動量 每周運動6-7天 1.725</p>
+          </div>
+        </div>
+        <div class="submit debug">
+          <input type ="submit" value="開始計算" class="btn_big">
+        </div>
+      </form>
+    </div>
+    <div class="result">
+    </div>
+    <div class="result2">
+    </div>
+  </div>
+  <script  type="text/javascript" src="tdee.js"></script>
+</body>
+</html>
