@@ -5,7 +5,7 @@
 一週
 
 ## 使用技術
-* Vanilla Javascript
+* Vanilla JS
 * HTML
 * CSS
 
